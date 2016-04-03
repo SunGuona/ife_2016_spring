@@ -1,0 +1,526 @@
+*{
+	margin:0;
+	padding:0;
+	font:normal 14px "微软雅黑";
+}
+ul{
+	list-style-type: none;
+}
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width: 200px;
+	height: 36px;
+	background-color: #fff;
+	background: url("img/four_1.png") no-repeat 95%;
+	border-color: rgb(231,79,77);
+	color:grey;
+	margin:auto 10px;
+	padding:8px;
+	font-size:12px;
+}
+option{
+	background-color:rgb(227,227,227);
+}
+input,textarea{
+	outline:none;
+	border:0;
+	resize:none;
+}
+body{
+	width: 1280px;
+}
+@media screen and (min-width: 1280px){
+	body{
+		margin:0 auto;
+	}
+}
+header{
+	margin-top: -60px;
+}
+.logo{
+	height:50px;
+	position:relative;
+	top:60px;
+}
+.logo *{
+	vertical-align:middle;
+}
+.logo span{
+	font:21px "黑体";
+	color:#000;
+}
+.list{
+	position:relative;
+	top:20px;
+	left:700px;
+	color:grey;
+	width: 600px;
+}
+.title li{
+	float:left;
+	padding:0 20px 20px;
+	letter-spacing:1px;
+	cursor:pointer;
+}
+.title li:hover{
+	border-bottom:4px solid rgb(231,79,77);
+	color:rgb(231,79,77);
+}
+.active{
+	border-bottom:4px solid rgb(231,79,77);
+	color:rgb(231,79,77);
+}
+.login{
+	position:relative;
+	left:700px;
+	top:14px;
+	width: 600px;
+	cursor:pointer
+}
+.login span{
+	color:rgb(231,79,77);
+}
+.login *{
+	vertical-align:middle;
+}
+.one{
+	margin-top: 34px;
+	color:#fff;
+	height: 700px;
+}
+.one_1{
+	position:relative;
+	bottom:620px;
+	left:120px;
+	width: 600px;
+}
+.one_2{
+	position:relative;
+	bottom:600px;
+	left:120px;
+	width: 600px;
+}
+.one_3{
+	position:relative;
+	bottom:540px;
+	left:130px;
+	padding:20px 100px;
+	background-color: rgb(231,79,77);
+	width: 130px;
+	cursor:pointer;
+}
+.one_1 p{
+	font-size:60px;
+}
+.one_2 p{
+	font-size:21px;
+}
+.one_3 p{
+	font-size:30px;
+}
+.two div{
+	position: relative;
+	bottom:100px;
+	left:10px;
+}
+.two div img{
+	padding-bottom: 40px;
+}
+.two div div{
+	width:160px;
+	float:left;
+	text-align: center;
+	padding:0 80px;
+	color:grey;
+}
+.three{
+	position: relative;
+	bottom:120px;
+	height: 485px;
+}
+.three div{
+	text-align: center;
+	position: relative;
+	bottom:270px;
+}
+.three div p{
+	margin-top: 40px;
+	font:54px "黑体";
+	color:grey;
+}
+.four{
+	margin-top:-120px;
+	text-align: center;
+	height:343px;
+}
+.four_1{
+	position:relative;
+	bottom:300px;
+}
+.four p{
+	font-size:12px;
+	color:#fff;
+	margin-top: 20px;
+}
+.four span{
+	font-size: 21px;
+	color:#fff;
+	padding-bottom:5px;
+}
+.four span span{
+	border-bottom:2px solid #fff;
+}
+.four .search{
+	margin-left:1090px;
+	position:relative;
+	bottom:56px;
+	cursor:pointer;
+}
+.four .search p{
+	font-size: 14px;
+	background-color: rgb(231,79,77);
+	width:160px;
+	letter-spacing: 14px;
+	padding:9px 40px;
+}
+.four .select{
+	margin-top: 40px;
+	margin-left: -200px;
+}
+.four select{
+	background-color: #fff;
+}
+.five{
+	background-color: rgb(247,247,247);	
+	overflow: auto;
+	padding-left:150px;
+}
+.five div{
+	float:left;
+	margin:100px 15px;
+	text-align: center;
+	color:grey;
+}
+.five .font_1{
+	color:black;
+	font-size: 18px
+}
+.five .font_2{
+	color:black;
+	font-size:24px;
+	letter-spacing: 32px;
+	padding-left:24px;
+}
+.six_left{
+	text-align: center;
+	margin-left: -432px;
+}
+.six_left div{
+	font-size: 22px;
+	margin-top: -450px;
+	color:#fff;
+}
+.six_left p{
+	padding-bottom: 10px;
+}
+.six_left_1{
+	font-size: 50px;
+	margin-bottom: -40px;
+}
+.six_left_2{
+	font-size: 158px;
+}
+.six_right{
+	width: 300px;
+	float:right;
+	margin-right: 60px;
+	margin-top: -250px;
+}
+.six_right_1{
+	font:bold 20px "微软雅黑";
+	color:#000;
+	text-align: center;
+}
+.six_right_1 span{
+	color:rgb(231,79,77);
+	font:bold 20px "微软雅黑";
+}
+.six_right_2{
+	font:12px "宋体";
+	color:grey;
+	line-height: 30px;
+	margin:30px auto;
+}
+.six_right div{
+	text-align: center;	
+}
+.six_right div p{
+	width: 80px;
+	padding:5px;
+	color:rgb(231,79,77);
+	border:1px solid rgb(231,79,77);
+	margin:0 auto;
+	cursor:pointer;
+}
+.six_right div p:hover{
+	background-color: rgb(231,79,77);
+	color:#fff;
+}
+.six_right div img{
+	margin:20px 5px;
+	cursor:pointer;
+}
+.six .triangle {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 15px 25px;
+    margin-top: -260px;
+    position:relative;
+    right:120px;
+}
+.seven{
+	margin-top: 132px;
+}
+.seven p{
+	font:21px "黑体";
+	margin:5px auto;
+}
+.seven_1,.seven_2{
+	float:left;
+	width: 430px;
+	height: 521px;
+	text-align: center;
+}
+.seven_1{
+	background-color: rgb(231,79,77);
+	color:#fff;
+}
+.seven_2{
+	background-color: #fff;
+}
+.seven_1 div div p{
+	color:#fff;
+	width:100px;
+	padding: 5px 20px;
+	border:1px solid #fff;
+	cursor:pointer;
+}
+.seven_1 div div p:hover{
+	background-color:#fff;
+	color:rgb(231,79,77);
+}
+.seven_2 div div p{
+	color:rgb(231,79,77);
+	width:100px;
+	padding: 5px 20px;
+	border:1px solid rgb(231,79,77);
+	cursor:pointer;
+}
+.seven_2 div div p:hover{
+	background-color: rgb(231,79,77);
+	color:#fff;
+}
+.seven_3{
+	float:right;
+	margin-top: -520px;
+	clear:both;
+}
+.seven .triangle{
+	height: 0;
+    width: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 15px 25px;
+    margin-top: -260px;
+    position:relative;
+    left:0px;
+}
+.seven .line{
+	width:40px;
+	margin:24px auto;
+	margin-left:195px;
+}
+.seven_1 .line{
+	border-bottom:2px solid #fff;
+}
+.seven_2 .line{
+	border-bottom:2px solid #000;
+}
+.seven_4{
+	margin-top: 180px;
+}
+.eight{
+	clear:both;
+}
+.eight_top{
+	text-align: center;
+	padding-top: 120px;
+}
+.eight_top_1{
+	font:21px "黑体";
+	color:#000;
+}
+.eight_top_2{
+	font:12px "微软雅黑";
+	color:grey;
+}
+.eight .line{
+	width:24px;
+	margin:8px auto;
+	border-bottom:2px solid rgb(231,79,77);
+}
+.eight_bottom{
+	margin:120px;
+	margin-top:80px;
+}
+.eight_bottom_left{
+	width: 320px;
+	float:left;
+}
+.eight_1{
+	margin:25px auto;
+	font:14px "黑体";
+}
+.eight_2{
+	font:12px "宋体";
+	color:grey;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+.eight_3{
+	font:12px "宋体";
+	color:grey;
+	position:relative;
+	left:256px;
+	background: url("img/eight_1.png") no-repeat 1%;
+	cursor:pointer;
+}
+.eight_3 p{
+	padding-left: 20px;
+}
+.eight .table{
+	margin-left: 500px;
+	padding-top: 20px;
+}
+.eight .table div,input,textarea{
+	background-color: rgb(237,237,237);
+}
+.eight .table p{
+	font:12px "宋体";
+	color:#000;
+}
+.eight .input_1,.input_2,.input_3,.input_4{
+	margin:5px;
+	width:220px;
+	height: 30px;
+	padding:10px 20px 5px;
+	position: relative;
+}
+.eight input{
+	margin:5px;
+	position:relative;
+	top:-20px;
+	left:60px;
+	width: 160px;
+}
+.eight .input_1 input,.input_2 input{
+	left:32px;
+	width:188px;
+}
+.eight .input_2{
+	float:right;
+	top:-54px;
+}
+.eight .input_4{
+	clear:both;
+	float:right;
+	top:-280px;
+}
+.eight .textarea{
+	margin:20px 5px;
+	padding:10px 20px 5px;
+	height: 140px;
+}
+.eight textarea{
+	height:110px;
+	width: 475px;
+}
+.eight .submit{
+	padding:10px 0;
+	margin: 0 5px;
+	cursor:pointer;
+}
+.eight .submit p{
+	font:14px "黑体";
+	text-align: center;
+}
+.footer_top{
+	background-color: rgb(50,53,62);
+	text-align: center;
+	padding-top:100px;
+	padding-bottom: 60px;
+}
+.footer_top_1{
+	font:21px "黑体";
+	padding-bottom: 5px;
+	color:#fff;
+}
+.footer_top_2{
+	font:12px "宋体";
+	margin:5px;
+	color:#fff;
+}
+.footer_bottom{
+	background-color: rgb(48,48,67);
+}
+.footer_top .input{
+	margin:30px 0;
+}
+.footer_top .input input{
+	width:400px;
+	height: 40px;
+	margin:10px;
+	padding-left: 8px;
+}
+.footer_top .input div{
+	float:right;
+	background-color: rgb(111,113,120);
+	height: 30px;
+	width: 80px;
+	padding-top:10px;
+	padding-left:10px;
+	position: relative;
+	right:392px;
+	top:10px;
+	cursor:pointer;
+}
+.footer_top .input div p{
+	letter-spacing: 10px;
+	font:15px "微软雅黑";
+	color:#fff;
+}
+.footer_top img{
+	margin:0 15px;
+	cursor:pointer;
+}
+.footer_bottom{
+	padding:10px 80px 10px 100px;
+}
+.footer_bottom span{
+	font:12px "宋体";
+	color:#fff;
+}
+.footer_bottom_r{
+	float:right;
+	cursor:pointer;
+}

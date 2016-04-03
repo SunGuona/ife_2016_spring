@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "黑体", sans-serif;
+  background: #eee;
+}
+
+/*div设置*/
+.p1, .p2, .p3, .p4, .sidebar {
+  background: #fff;
+  border: 2px #eee outset;
+  padding: 15px;
+  margin: 20px 10px;
+}
+
+
+/*一级标题设置*/
+h2 {
+  line-height: 2em;
+}
+
+/*二级标题设置*/
+h3 {
+  line-height: 2em;
+  color: #555;
+}
+
+/*文章作者设置*/
+p.author {
+  font-size: 0.8em;
+  color: #888;
+  line-height: 2em;
+  margin-bottom: 1em;
+  text-indent: inherit;
+}
+
+/*普通段落设置*/
+p {
+  line-height: 1.5em;
+  text-indent: 2em;
+}
+
+/*粗体字设置*/
+span.bold {
+  font-weight: bold;
+}
+
+/*超链接设置*/
+a {
+  color: #00f;
+}
+
+/*图片设置*/
+img {
+  margin: 1em 0;
+}
+
+a {
+  word-break: break-all;
+}
+
+/*container设置*/
+div.container {
+  overflow: hidden;
+  margin: 50px 364px 0 10px;
+  position: relative;
+}
+
+/*导航栏设置*/
+div.nav {
+  background: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+div.nav img {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+ul.nav {
+  display: inline-block;
+  float: right;
+  margin: 15px;
+}
+ul.nav li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+ul.nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+ul.nav li a:linked, ul.nav li a:visited {
+  color: #999;
+}
+
+/*第一个div设置*/
+div.p1 img, div.p2 img {
+  width: 60%;
+  margin: 0;
+}
+
+/*第二个div设置*/
+div.p2 ul {
+  list-style: none;
+  margin-left: 1em;
+  line-height: 1.5em;
+}
+
+/*第三个div设置*/
+div.p3 ul li {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+div.p3 ul li img {
+  width: 80px;
+  margin: .8em 0 0 0;
+}
+
+/*第四个div设置*/
+div.p4 ol {
+  margin-left: 3em;
+  text-indent: -.5em;
+  margin-bottom: 1em;
+}
+
+div.p4 table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+div.p4 table th, div.p4 table td {
+  border: 1px solid #ccc;
+  height: 2em;
+  font-size: .8em;
+  padding-left: .5em;
+}
+
+div.p4 table thead {
+  background-color: #000;
+  color: #fff;
+}
+
+div.p4 table tfoot {
+  font-weight: bold;
+  background-color: #ccc;
+}
+
+/*侧栏设置*/
+div.sidebar {
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+div.sidebar > h2 {
+  font-size: 1.2em;
+  border-left: 4px solid #ccc;
+  padding-left: .5em;
+}
+
+div.sidebar form {
+  margin: auto;
+  line-height: 2.3em;
+  font-size: .8em;
+}
+
+div.sidebar form label.labelright {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  margin-right: 2%;
+}
+
+div.sidebar span.comment {
+  margin-left: 33%;
+  color: #999;
+}
+
+div.sidebar form input:last-child {
+  width: 100%;
+  height: 2.5em;
+  border-radius: 8px;
+  font-family: "黑体";
+  background-color: #22f;
+  color: #fff;
+}
+
+/*页脚*/
+footer {
+  background: #333;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  padding-top: 1.4em;
+  font-size: .8em;
+}

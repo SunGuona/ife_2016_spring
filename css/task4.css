@@ -1,0 +1,33 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+div#container {
+  background: #ccc;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div#cir1 {
+  background: #fc0;
+  height: 50px;
+  width: 50px;
+  border-radius:0 0 50px 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div#cir2 {
+  background: #fc0;
+  height: 50px;
+  width: 50px;
+  border-radius:50px 0 0 0; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

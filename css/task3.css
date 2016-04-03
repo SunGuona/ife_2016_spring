@@ -1,0 +1,171 @@
+body {
+  font-family: "黑体", sans-serif;
+  height: 100%;
+}
+
+/*方法1*/
+/*container样式*/
+div#container1 {
+  padding: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  margin: auto;
+  position: relative;
+  overflow: auto;
+}
+
+/*logo、队名div样式*/
+div#logo1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 158px;
+  height: 80px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+/*图像尺寸*/
+.logoimg, .profileimg {
+  width: 80px;
+  height: 80px;
+}
+
+/*团队logo*/
+div#logo1 .logoimg {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+/*队名*/
+div#logo1 p {
+  display: inline-block;
+  width: 58px;
+  font-size: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0px;  
+}
+
+/*队员头像部分*/
+div#members1 {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 78px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+div#members1 .profileimg {
+  margin-bottom: 20px;
+}
+
+div#members1 img.profileimg:last-child {
+  margin-bottom: 0px;
+}
+/*中间栏*/
+div#intro1 {
+  margin: 0 140px 0 220px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+div#intro1 p {
+  line-height: 2em;
+  margin: 0;
+}
+
+/*方法2*/
+div#container1 + p {
+  margin-top: 180px;
+}
+/*container样式*/
+div#container2 {
+  padding: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  margin: auto;
+  position: relative;
+  /*保证container2自适应最高子块高度的一种方法*/
+  overflow: auto;
+  zoom: 1;
+}
+
+/*logo、队名div样式*/
+div#logo2 {
+  float: left;
+  /*position: absolute;*/
+  top: 20px;
+  left: 20px;
+  width: 158px;
+  height: 80px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+/*团队logo*/
+div#logo2 .logoimg {
+  /*display: inline-block;
+  position: absolute;*/
+  float: left;
+  left: 20px;
+  top: 20px;
+}
+
+/*队名*/
+div#logo2 p {
+  /*display: inline-block;
+  position: absolute;*/
+  width: 58px;
+  font-size: 15px;
+  float: right;
+  top: 20px;
+  right: 20px;
+  margin: 0px;  
+}
+
+/*队员头像部分*/
+div#members2 {
+  /*position: absolute;*/
+  float: right;
+  right: 20px;
+  top: 20px;
+  width: 78px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+div#members2 .profileimg {
+  margin-bottom: 20px;
+}
+
+div#members2 img.profileimg:last-child {
+  margin-bottom: 0px;
+}
+/*中间栏*/
+div#intro2 {
+  margin: 0 140px 0 220px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+div#intro2 p {
+  line-height: 2em;
+  margin: 0;
+}
+
+
+/*保证container2自适应最高子块高度的另一种方法*/
+/*div#dd {
+  clear: both;
+}*/
